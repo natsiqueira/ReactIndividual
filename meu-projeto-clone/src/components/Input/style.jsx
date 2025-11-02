@@ -1,0 +1,11 @@
+import styled from 'styled-components';
+
+export const Container = styled.input`
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+`;
