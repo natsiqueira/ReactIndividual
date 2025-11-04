@@ -28,12 +28,12 @@ const Login = () => {
     }
 
     try {
-      // Simulação de autenticação
-      if (formData.email === 'usuario@email.com' && formData.password === '123456') {
+      //dados de acessos fixos pra teste
+      if (formData.email === 'nat@email.com', 'felipe@email.com' && formData.password === 'ReactEstaMeDeixandoDoida') {
         localStorage.setItem('isLoggedIn', 'true');
         navigate('/home');
       } else {
-        setError('Email ou senha incorretos');
+        setError('Email ou senha incorretos =/');
       }
     } catch (error) {
       setError('Erro ao fazer login. Tente novamente.');

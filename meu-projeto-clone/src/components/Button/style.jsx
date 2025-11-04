@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-// Aqui exportamos o componente estilizado (Container)
+// componente estilizado/Container
 export const Container = styled.button`
   background-color: #007bff; /* Exemplo de cor primária */
   color: white;

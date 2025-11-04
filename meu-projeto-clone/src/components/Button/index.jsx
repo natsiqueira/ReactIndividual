@@ -1,7 +1,6 @@
 import React from 'react';
-import { Container } from './style'; // Importando o componente estilizado
+import { Container } from './style'; 
 
-// Recebe props como 'onClick' e 'children' (o texto dentro do botão)
 function Button({ onClick, children }) {
   return (
     <Container onClick={onClick}>

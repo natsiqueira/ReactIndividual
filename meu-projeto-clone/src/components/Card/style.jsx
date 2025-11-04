@@ -8,6 +8,8 @@ export const CardContainer = styled.div`
   margin: 16px;
   width: 280px;
   transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
 
   &:hover {
     transform: translateY(-5px);
@@ -16,11 +18,13 @@ export const CardContainer = styled.div`
 `;
 
 export const CardImage = styled.img`
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  width: 93%;
+  height: px;
+  object-fit: contain;
   border-radius: 4px;
   margin-bottom: 12px;
+  padding: 16px;
+  background-color: #f8f9fa;
 `;
 
 export const CardTitle = styled.h3`
@@ -34,6 +38,7 @@ export const CardDescription = styled.p`
   color: #666;
   margin: 0 0 12px 0;
   line-height: 1.4;
+  flex-grow: 1;
 `;
 
 export const CardPrice = styled.span`
